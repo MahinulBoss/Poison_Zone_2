@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/welcome_vYPgtPqQ.gif">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="img/Poison_Zone.gif">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">Poison Zone</h5>
+            <div>
+                <h4><span>Hello</span>, I'm</h4>
+                <h2>Mahinul Islam.</h2>
+                <h4>Simple Bot Dev</p>
+                <a href="https://dsc.gg/pzmusic" class="btn">Invite</a>
+                <a href="https://dsc.gg/pzbd" class="btn">Server</a>
+            </div>
+            <ul class="sci">
+            </ul>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="title white">
+        <!--Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.-->
+            <h2>About Us</h2>
+            <p>I am a music Bot.</p>
+        </div>
+        <div class="content">
+            <div class="textBx">
+                <p>Good quality music.
+                    My Owner is Mahinul Islam.
+                </p>
+            </div>
+            <div class="imgBx">
+                <img src="img/music_anime_icon.gif">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="title">
+            <h2>Our Services</h2>
+            <b>Poison Zone Music Help
+
+                List of all commands
+                
+                pz!help
+                
+                Plays a clip sound
+                
+                pz!clips
+                
+                List all clips
+                
+                pz!help (h)
+                
+                Display all commands and descriptions
+                
+                pz!invite
+                
+                Send bot invite link
+                
+                pz!loop (l)
+                
+                Toggle music loop
+                
+                pz!lyrics (ly)
+                
+                Get lyrics for the currently playing song
+                
+                pz!move (mv)
+                
+                Move songs around in the queue
+                
+                pz!np
+                
+                Show now playing song
+                
+                pz!pause
+                
+                Pause the currently playing music
+                
+                pz!ping
+                
+                Show the bot's average ping
+                
+                pz!play (p)
+                
+                Plays audio from YouTube or Soundcloud
+                
+                pz!playlist (pl)
+                
+                Play a playlist from youtube
+                
+                pz!pruning
+                
+                Toggle pruning of bot messages
+                
+                pz!queue (q)
+                
+                Show the music queue and now playing.
+                
+                pz!remove (rm)
+                
+                Remove song from the queue
+                
+                pz!resume (r)
+                
+                Resume currently playing music
+                
+                pz!search
+                
+                Search and select videos to play
+                
+                pz!shuffle
+                
+                Shuffle queue
+                
+                pz!skip (s)
+                
+                Skip the currently playing song
+                
+                pz!skipto (st)
+                
+                Skip to the selected queue number
+                
+                pz!stop
+                
+                Stops the music
+                
+                pz!uptime (u)
+                
+                Check the uptime
+                
+                pz!volume (v)
+                
+                Change volume of currently playing music</b>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img  src="img/icon1.png">
+                <h2>Web Design</h2>
+                <p>Design by Mahinul Isla.</p>
+            </div>
+            <div class="servicesBx">
+                <img  src="img/icon2.png">
+                <h2>Bot Development</h2>
+                <p>Mahinul Islam</p>
+            </div>
+            <div class="servicesBx">
+                <img  src="img/icon3.png">
+                <h2>Browser</h2>
+                <p>Coming Soon Made By Mahinul Islam.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="title">
+            <h2>Recent Work</h2>
+            <p>Browser Making.</p>
+        
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title white">
+            <h2>Contact Us</h2>
+            <p>Mahinul Islam</p>
+        </div>
+        <div class="contactForm">
+            <div class="row">
+                <div class="col50">
+                    <input type="text" name="Mahinul Islam" placeholder="Mahinul Islam">
+                </div>
+                <div class="col50">
+                    <input type="text" name="Islam" placeholder="Islam">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col50">
+                    <input type="text" name="mahinulmohon2006@gmail.com" placeholder="mahinulmohon2006@gmail.com">
+                </div>
+                <div class="col50">
+                    <input type="text" name="Hi everyone." placeholder="Mobile No.">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col100">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col100">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright &copy 2022 PZBD. All Right Reserve</p>
+    </div>
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </div>
+
+    
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
